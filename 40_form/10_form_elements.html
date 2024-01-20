@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></p>
+    <p><a href="https://www.w3schools.com/html/html_form_elements.asp">HTML Form Elements</a></p>
+    <hr>
+
+    <!-- 試試看，<select>、<option> -->
+    <label for="select_id">選擇手機公司:</label>
+    <select name="phone" id="select_id"> <!--name: 給後端server看的名字(題目)-->
+        <option value="">請選擇...</option><!--再透過JS判斷是否被使用者選擇，若是則阻止使用者送出表單-->
+        <option value="A">apple</option><!--value: 給後端server看的名字(被選的選項)-->
+        <option value="HW">華為</option>
+        <option value="X">小米</option>
+        <option value="H">HTC</option>
+    </select>
+
+    <br><br>
+    <!-- 試試看，<select>、<optgroup>、<option> -->
+    <label for="city_id">您居住的城市:</label>
+    <select id="city_id">
+        <optgroup label="北部">
+            <option>台北</option>
+            <option>宜蘭</option>
+        </optgroup>
+        <optgroup label="中部">
+            <option>彰化</option>
+            <option>南投</option>
+        </optgroup>
+        <optgroup label="南部">
+            <option selected>嘉義</option> <!--selected預設選項-->
+            <option>屏東</option>
+        </optgroup>
+    </select>
+
+    <!-- 試試看，<datalist>、<option> -->
+
+</body>
+
+</html>

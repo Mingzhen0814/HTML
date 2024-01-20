@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- <li>不可單獨存在(下一層可隨意)，<ul>/<ol>的下一層只能是<li> -->
+    <!-- <ul>：unordered list，無排序的項目 -->
+    <h2>全台各地飲料店名稱：</h2>
+    <ul>
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <!-- 全台各地飲料店名稱：
+    WHO'S TEA 鬍子茶
+    布萊恩紅茶
+    拾覺細做輕飲
+    迷客夏
+    良辰吉時
+    小確幸紅茶牛奶合作社 -->
+    <hr>
+    <!-- 試試看，如果想要改變項目符號的圖示，
+         要幫<ul>設定哪一項屬性? 有哪幾種圖示? -->
+    <!-- list-style-type: disc; --><!--預設樣式-->
+    <h2>全台各地飲料店名稱：</h2>
+    <ul style="list-style-type: disc;">
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <!-- list-style-type: circle; -->
+    <h2>全台各地飲料店名稱：</h2>
+    <ul style="list-style-type: circle;">
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <!-- list-style-type: square; -->
+    <h2>全台各地飲料店名稱：</h2>
+    <ul style="list-style-type: square;">
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <!-- list-style-type: none; -->
+    <h2>全台各地飲料店名稱：</h2>
+    <ul style="list-style-type: none;">
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <hr>
+    <!-- ol：ordered list，排序的項目 -->
+
+    <!-- 每日上課守則：
+    預習
+    練習
+    複習 -->
+    <h2>每日上課守則：</h2>
+    <ol>
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+
+    <!-- 試試看，能不能改變 <ol> 清單編號類型? 
+         從 123 改成 ABC 或者其他?-->
+    <h2>每日上課守則：</h2>
+    <ol type="A">
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+    <!-- 只能從 1號 開始編嗎?  -->
+    <h2>每日上課守則：</h2>
+    <ol start="6">
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+    <!-- 倒數編排序號 -->
+    <h2>每日上課守則：</h2>
+    <ol reversed>
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+    <!-- dl：description list -->
+    <!-- dt：description list term -->
+    <!-- dd：description descriptions -->
+    <dl>
+        <dt>標題</dt>
+        <dd>說明</dd>
+    </dl>
+    <!-- 這一堂課會學習到：
+    HTML
+    HTML的全名是HyperText Markup Language，編寫網頁的語言
+    可以配合 https://www.w3schools.com/ 查看和練習
+    CSS
+    CSS 的全名為Cascading Style Sheets，是一種樣式表(Stylesheet) 語言
+    JavaScript
+    通常縮寫為JS，一種程式語言，能夠使網頁動態更新內容、控制多媒體，處理網頁前端的邏輯判斷等等
+    jQuery
+    是一個函式庫 -->
+    <h2>這一堂課會學習到：</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML的全名是HyperText Markup Language，編寫網頁的語言可以配合 https://www.w3schools.com/ 查看和練習</dd>
+        <dt>CSS</dt>
+        <dd>CSS 的全名為Cascading Style Sheets，是一種樣式表(Stylesheet)語言</dd>
+        <dt>JavaScript</dt>
+        <dd>通常縮寫為JS，一種程式語言，能夠使網頁動態更新內容、控制多媒體，處理網頁前端的邏輯判斷等等</dd>
+        <dt>jQuery</dt>
+        <dd>是一個函式庫</dd>
+    </dl>
+
+</body>
+
+</html>
